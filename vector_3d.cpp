@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include "vector_3d.h"
+using namespace std;
 
 int main() {
     geometry::d3::vector_3d v1(1, 2, 3);
@@ -14,9 +15,8 @@ int main() {
 
     double producto_punto = dot_product(v1, v2);
 
-    std::cout << "Suma: (" << suma.get_x() << ", " << suma.get_y() << ", " << suma.get_z() << ")\n";
-    std::cout << "Resta: (" << resta.get_x() << ", " << resta.get_y() << ", " << resta.get_z() << ")\n";
-    std::cout << "Producto punto: " << producto_punto << "\n";
+    cout << "Suma: (" << suma.get_x() << ", " << suma.get_y() << ", " << suma.get_z() << ")\n";
+    cout << "Resta: (" << resta.get_x() << ", " << resta.get_y() << ", " << resta.get_z() << ")\n";
+    cout << "Producto punto: " << producto_punto << "\n";
 
-    return 0;
 }
