@@ -3,8 +3,7 @@
 
 #include <iostream> 
 
-namespace geometry {
-namespace d3 {
+namespace geometry { 
 
 class vector_3d {
 private:
@@ -24,7 +23,5 @@ public:
     friend double dot_product(const vector_3d& v1, const vector_3d& v2);
 };
 
-}
 } 
-
 #endif // PROG3_FUNDAMENTOS_TASK_1_V2025_01_VECTOR_3D_H
